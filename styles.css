@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f0f8ff; /* Alice Blue */
+    color: #333; /* Dark text for contrast */
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #0073e6; /* Blue */
+    color: #fff; /* White text */
     padding: 1em 0;
     text-align: center;
 }
@@ -23,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* White text */
     text-decoration: none;
 }
 
@@ -33,24 +35,24 @@ section {
 }
 
 #home {
-    background: #f4f4f4;
+    background: #e6f2ff; /* Light Blue */
 }
 
 #about {
-    background: #e2e2e2;
+    background: #cce0ff; /* Slightly darker blue */
 }
 
 #services {
-    background: #ccc;
+    background: #b3d1ff; /* More saturated blue */
 }
 
 #contact {
-    background: #b2b2b2;
+    background: #99c2ff; /* Medium blue */
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #0073e6; /* Blue */
+    color: #fff; /* White text */
     text-align: center;
     padding: 1em 0;
     position: fixed;
